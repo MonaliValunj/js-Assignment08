@@ -93,6 +93,7 @@ for (let i of movies) {
 } */
 
 //STEP 8
+/* 
 var movies = [];
 movies[0] = "A Beautiful Mind"
 movies[1] = "Murder mystery"
@@ -102,21 +103,74 @@ movies[4] = "Good Night Oppy"
 
 var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
 
-console.log("Movies I liked: ")
+console.log("Movies I liked: \n\n")
 for(var i = 0; i < movies.length; i++){
-     console.log(movies[i])
+     console.log(movies[i]+" \n")
 }
 
-console.log("Movies I regret watching: ")
-
+console.log("\n\nMovies I regret watching: \n\n")
+for(var i = 0; i < leastFavMovies.length; i++){
+     console.log(leastFavMovies[i]+" \n")
+}
+ */
 
 //STEP 9
+/* var movies = [];
+movies[0] = "A Beautiful Mind"
+movies[1] = "Murder mystery"
+movies[2] = "Lion"
+movies[3] = "Celine"
+movies[4] = "Good Night Oppy"
+
+var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
+
+var movies = movies.concat(leastFavMovies)
+console.log(movies.sort().reverse()) */
+
 
 //STEP 10
+/* 
+var movies = [];
+movies[0] = "A Beautiful Mind"
+movies[1] = "Murder mystery"
+movies[2] = "Lion"
+movies[3] = "Celine"
+movies[4] = "Good Night Oppy"
+
+var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
+
+var movies = movies.concat(leastFavMovies)
+console.log(movies)
+console.log("Last iten is: "+movies.slice(-1))
+ */
 
 //STEP 11
+/* 
+var movies = [];
+movies[0] = "A Beautiful Mind"
+movies[1] = "Murder mystery"
+movies[2] = "Lion"
+movies[3] = "Celine"
+movies[4] = "Good Night Oppy"
 
+var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
+
+var movies = movies.concat(leastFavMovies)
+console.log(movies)
+console.log("first iten is: "+movies.shift())
+
+ */
 //STEP 12
+
+// movies[0] = "A Beautiful Mind"
+// movies[1] = "Murder mystery"
+// movies[2] = "Lion"
+// movies[3] = "Celine"
+// movies[4] = "Good Night Oppy"
+
+// var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
+var movies = ["A Beautiful Mind","Drishaym2","Crazy Rich Asians","Murder mystery","Lion","Celine","Good Night Oppy","All Good Things"];
+
 
 //STEP 13
 
