@@ -174,25 +174,14 @@ console.log("first iten is: "+movies.shift())
 
 //STEP 13
 /* 
-let movies = [["A Beautiful Mind", 5], ["Drishaym2", 1], ["Good Night Oppy", 4], ["Murder mystery", 3], ["Celine", 2]]
+let movies = ["A Beautiful Mind", 5, "Drishaym2", 1, "Good Night Oppy", 4, "Murder mystery", 3, "Celine", 2]
 
-function checkDataType(){
-     console.log("checkDataType is running")
-     for(var i = 0; i< movies.length; i++){
-           if(typeof movies[i][0] === 'string'){
-               return movies[i][0]
-          }else if(typeof movies[i][1] === 'string'){
-               return movies[i][1]
-          } else{
-               console.log("name is not listed")
-          }
-     }
-}
+let names = movies.filter((item) => {
+          return typeof item === 'string';
+     });
 
-    var result = movies.filter(checkDataType);
-    console.log(result) 
-     */
-
+console.log(names)
+ */
 
 //STEP 14
 /* 
@@ -205,8 +194,9 @@ showEmployee(employees)
  */
 
 //STEP 15
-var filterValues =[58, '', 'abcd', true, null, false, 0]
-console.log(filterValues.filter);
+
+// var arr =[58, '', 'abcd', true, null, false, 0]
+// console.log(arr.filter());
 
 //STEP 16
 
