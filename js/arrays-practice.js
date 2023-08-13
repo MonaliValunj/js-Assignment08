@@ -202,5 +202,24 @@ function filterArray(elm){
 console.log(arr.filter(filterArray));
  */
 //STEP 16
+/* 
+var arr = [2,4,5,76,8,9,0,22,34,54,12,45]
+
+function randomNum(arr){
+     return arr[Math.floor(Math.random()*arr.length)]
+}
+console.log(randomNum(arr))
+ */
 
 //STEP 17
+/* 
+var arr = arr = [2, 4, 5, 76, 8, 9, 0, 22, 34, 54, 12, 45]
+var largest = 0;
+
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i] > largest ) {
+    largest = arr[i];
+  }
+}
+console.log(largest);
+ */
