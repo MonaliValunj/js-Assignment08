@@ -194,10 +194,13 @@ showEmployee(employees)
  */
 
 //STEP 15
-
-// var arr =[58, '', 'abcd', true, null, false, 0]
-// console.log(arr.filter());
-
+/* 
+var arr =[58, '', 'abcd', true, null, false, 0]
+function filterArray(elm){
+     return (elm != null && elm !== false && elm !== "" && elm !== 0);
+ }
+console.log(arr.filter(filterArray));
+ */
 //STEP 16
 
 //STEP 17
