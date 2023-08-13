@@ -169,14 +169,44 @@ console.log("first iten is: "+movies.shift())
 // movies[4] = "Good Night Oppy"
 
 // var leastFavMovies = ["Drishaym2","Crazy Rich Asians","All Good Things"]
-var movies = ["A Beautiful Mind","Drishaym2","Crazy Rich Asians","Murder mystery","Lion","Celine","Good Night Oppy","All Good Things"];
+//var movies = ["A Beautiful Mind","Drishaym2","Crazy Rich Asians","Murder mystery","Lion","Celine","Good Night Oppy","All Good Things"];
 
 
 //STEP 13
+/* 
+let movies = [["A Beautiful Mind", 5], ["Drishaym2", 1], ["Good Night Oppy", 4], ["Murder mystery", 3], ["Celine", 2]]
+
+function checkDataType(){
+     console.log("checkDataType is running")
+     for(var i = 0; i< movies.length; i++){
+           if(typeof movies[i][0] === 'string'){
+               return movies[i][0]
+          }else if(typeof movies[i][1] === 'string'){
+               return movies[i][1]
+          } else{
+               console.log("name is not listed")
+          }
+     }
+}
+
+    var result = movies.filter(checkDataType);
+    console.log(result) 
+     */
+
 
 //STEP 14
+/* 
+let employees = ["MONALI", "JOHN", "JESSICA", "MARK","FRED","SALLY"]
+var showEmployee = function(arr){
+     console.log("Employees: \n\n")
+     arr.forEach((element) => console.log(element))
+}
+showEmployee(employees)
+ */
 
 //STEP 15
+var filterValues =[58, '', 'abcd', true, null, false, 0]
+console.log(filterValues.filter);
 
 //STEP 16
 
